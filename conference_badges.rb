@@ -19,16 +19,12 @@ def batch_badge_creator(attendees)
 end
 
 def printer(attendees)
-
-  badges = batch_badge_creator(array)
+badges = batch_badge_creator(array)
   rooms = assign_rooms(array)
-
-  badges.each do|name|
+badges.each do|name|
   puts "#{badges}"
-
-  end
-
-  rooms.each do|item,index|
+end
+rooms.each do|item,index|
   puts "#{rooms}"
   
   end
