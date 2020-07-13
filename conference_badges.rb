@@ -18,10 +18,21 @@ def batch_badge_creator(attendees)
   return rooms
 end
 
-def printer(badges, rooms)
-  puts badges
-  puts rooms
- end
+def printer(attendees)
+
+  badges = batch_badge_creator(array)
+  rooms = assign_rooms(array)
+
+  badges.each do|name|
+  puts "#{badges}"
+
+  end
+
+  rooms.each do|item,index|
+  puts "#{rooms}"
+  
+  end
+  
 end
 
 #def conference_badges_printer(attendees)
