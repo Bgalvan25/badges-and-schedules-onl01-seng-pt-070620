@@ -26,10 +26,7 @@ badges.each do|name|
 end
 rooms.each do|item,index|
   puts "#{rooms}"
-  
-  end
-  
-end
+   end
 
 #def conference_badges_printer(attendees)
  # puts batch_badge_creator
