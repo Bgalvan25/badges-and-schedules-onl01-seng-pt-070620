@@ -19,7 +19,7 @@ def batch_badge_creator(attendees)
 end
 
 
-def conference_badges_printer#(attendees)
+def conference_badges_printer(attendees)
   puts batch_badge_creator
     puts assign_rooms
 end
