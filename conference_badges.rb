@@ -18,7 +18,13 @@ def batch_badge_creator(attendees)
   return rooms
 end
 
-def conference_badges_printer(attendees)
-  puts batch_badge_creator
-    puts assign_rooms
+def printer(badges, rooms)
+  puts badges
+  puts rooms
+ end
 end
+
+#def conference_badges_printer(attendees)
+ # puts batch_badge_creator
+  #  puts assign_rooms
+#end
